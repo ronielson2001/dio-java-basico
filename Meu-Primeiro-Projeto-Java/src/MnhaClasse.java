@@ -1,8 +1,14 @@
 public class MnhaClasse {
     public static void main (String [] args) {
-        int ano = 2021;
-        ano = 2022;
-        final String BR ="Brasil";
-        
-    } 
+       String primeiroNome = " Ronielson";
+       String segundoNome = " Coelho";
+
+       String nomeCompleto = nomeCompleto (primeiroNome,segundoNome);
+
+       System.out.println(nomeCompleto);
+    
+    } public static String nomeCompleto (String primeiroNome, String segundoNome){
+        return "Resultado do Método" + primeiroNome.concat("").concat(segundoNome);
+    }
+
 }
