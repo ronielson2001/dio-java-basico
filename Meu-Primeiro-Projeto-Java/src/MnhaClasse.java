@@ -1,5 +1,8 @@
 public class MnhaClasse {
     public static void main (String [] args) {
-        System.out.print ("Ola, Mundo");
+        int ano = 2021;
+        ano = 2022;
+        final String BR ="Brasil";
+        
     } 
 }
