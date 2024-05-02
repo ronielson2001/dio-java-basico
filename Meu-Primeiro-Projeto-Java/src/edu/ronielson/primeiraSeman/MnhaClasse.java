@@ -1,3 +1,4 @@
+package edu.ronielson.primeiraSeman;
 public class MnhaClasse {
     public static void main (String [] args) {
        String primeiroNome = " Ronielson";
